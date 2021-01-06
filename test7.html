@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container div {
+            display: flex;
+            /* height: 50px; */
+            align-items: flex-start;
+            flex: 0 0 30px;
+        }
+        #container div label {
+            flex: 0 0 200px;
+            text-align: right;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div id="container">
+            <div>
+                <label>name:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Enter password:</label>
+                <input type="text">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
